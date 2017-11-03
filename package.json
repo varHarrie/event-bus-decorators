@@ -1,0 +1,39 @@
+{
+  "name": "event-bus-decorators",
+  "version": "1.0.0",
+  "description": "Decorators for event bus written in typescript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varHarrie/event-bus-decorators.git"
+  },
+  "keywords": [
+    "decorator",
+    "event",
+    "event-bus"
+  ],
+  "author": "varHarrie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/varHarrie/event-bus-decorators/issues"
+  },
+  "homepage": "https://github.com/varHarrie/event-bus-decorators#readme",
+  "dependencies": {
+    "@types/node": "^8.0.47",
+    "event-bus-station": "^1.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  }
+}
